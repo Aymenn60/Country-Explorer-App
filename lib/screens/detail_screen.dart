@@ -137,6 +137,7 @@ class _DetailScreenState extends State<DetailScreen> {
     );
   }
 
+  //if satatements for the app
   Widget _buildDetailRow(IconData icon, String label, String value) {
     // Logic to avoid displaying "N/A" or empty values
     if (value == "N/A" || value.isEmpty || value == "0" || value == "0.0 km²") {
