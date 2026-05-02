@@ -17,6 +17,7 @@ class _SearchScreenState extends State<SearchScreen> {
   String error = '';
 
   Timer? debounce;
+  //timer
 
   void search(String query) {
     if (debounce?.isActive ?? false) debounce!.cancel();
